@@ -153,8 +153,8 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
     //Xposed
-    implementation("com.github.kyuubiran:EzXHelper:2.2.0")
-    compileOnly("de.robv.android.xposed:api:82")
+    //implementation("com.github.kyuubiran:EzXHelper:2.2.0")
+    //compileOnly("de.robv.android.xposed:api:82")
 
 }
     kapt {
