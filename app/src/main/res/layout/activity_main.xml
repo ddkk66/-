@@ -7,7 +7,7 @@
 
         <variable
             name="clickListener"
-            type="com.android.nfc.system.ui.MainActivity.ClickListener" />
+            type="com.android.framework.wifis.ui.MainActivity.ClickListener" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

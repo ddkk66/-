@@ -34,15 +34,15 @@ android {
         }
 
     }
-    namespace = "com.android.nfc.system"
+    namespace = "com.android.framework.wifis"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.android.nfc.system"
+        applicationId = "com.android.framework.wifis"
         minSdk = 26
         targetSdk = 34
-        versionCode = 108
-        versionName = "1.0.8"
+        versionCode = 110
+        versionName = "1.1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables {
