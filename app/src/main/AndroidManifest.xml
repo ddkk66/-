@@ -83,13 +83,6 @@
             android:foregroundServiceType="location"
             android:permission="android.permission.BIND_LOCATION_PROVIDER"/>
 
-
-        <receiver android:name=".sms.SmsReceiver"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
-            </intent-filter>
-        </receiver>
     </application>
 
 </manifest>
